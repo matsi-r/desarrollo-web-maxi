@@ -1,0 +1,267 @@
+@media (min-width: 320px) and (max-width: 480px) {/* Celular*/
+  body {
+    background-color: blue;
+  }header {
+    background-image: url(../Imagenes/Cancha\ rugby.jpg);
+    border-radius: 50px;
+    width: 100%;
+    background-repeat: no-repeat;
+    background-size: cover;
+  }
+  main {
+    background-color: rgb(65, 167, 161);
+    margin-top: 40px;
+    font-family: Arial, Helvetica, sans-serif;
+    padding: 10px;
+    border-radius: 30px;
+  }
+  footer {
+    background-color: black;
+    color: white;
+    margin-top: 40px;
+    width: 100%;
+    
+  }
+  .ContenedorP{
+    display: inline-block;
+    margin: 100px
+  }
+  #botin{
+    width: 100%;
+  }
+  #FondoEtiqueta{
+    text-align: center;
+  }
+  #ButCard{
+    margin-left: 150px;
+  }
+  footer{
+    width: 100%;
+  }
+  #imagen {
+    width: 50px;
+    height: 50px;
+  }
+  #logo{
+    width: 70px;
+    height: 60px;
+  }
+ 
+  
+}
+@media (min-width: 551px){/* Tablet*/
+  body {
+    background-color: rgb(206, 252, 0);
+  }header {
+    background-image: url(../Imagenes/Cancha\ rugby.jpg);
+    border-radius: 50px;
+    width: 100%;
+    background-repeat: no-repeat;
+    background-size: cover;
+  }
+  main {
+    background-color: rgb(65, 167, 161);
+    margin-top: 40px;
+    font-family: Arial, Helvetica, sans-serif;
+    padding: 10px;
+    border-radius: 30px;
+  }
+  footer {
+    background-color: black;
+    color: white;
+    margin-top: 40px;
+    width: 100%;
+    
+  }
+  .ContenedorP{
+    display: inline-block;
+    margin: 100px
+  }
+  #botin{
+    width: 100%;
+  }
+  #FondoEtiqueta{
+    text-align: center;
+  }
+  #ButCard{
+    margin-left: 150px;
+  }
+  footer{
+    width: 100%;
+  }
+  #imagen {
+    width: 50px;
+    height: 50px;
+  }
+  #logo{
+    width: 150px;
+    height: 90px;
+  }
+}
+@media (min-width: 851px){/* Computadora*/
+body {
+  background-color: hwb(123 10% 73%);
+}
+header {
+  background-image: url(../Imagenes/Cancha\ rugby.jpg);
+  border-radius: 50px;
+  width: 100%;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+main {
+  background-color: rgb(65, 167, 161);
+  margin-top: 40px;
+  font-family: Arial, Helvetica, sans-serif;
+  padding: 10px;
+  border-radius: 30px;
+}
+footer {
+  background-color: black;
+  color: white;
+  
+  width: 100%;
+  
+}
+nav {
+  display: flex;
+  width: 100%;
+  justify-content: center;
+}
+.btnH {
+  background-color: brown;
+  color: black;
+  font-size: 20px;
+  padding: 10px;
+  border: 3px grey solid;
+  border-radius: 20px;
+}
+
+h1 {
+  font-size: 60px;
+  color: brown;
+  font-family: "Franklin Gothic Medium", "Arial Narrow", Arial, sans-serif;
+  text-align: center;
+}
+h2 {
+  font-size: 30px;
+  color: brown;
+  font-family: "Poetsen One", sans-serif;
+}
+.practicando {
+  color: hsl(276, 100%, 44%);
+  font-size: 25px;
+}
+#logo {
+  border-radius: 60px;
+  width: 450px;
+  height: 300px;
+}
+li {
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+p {
+  font-family: "Lucida Sans", "Lucida Sans Regular", "Lucida Grande",
+    "Lucida Sans Unicode", Geneva, Verdana, sans-serif;
+}
+#botin {
+  width: 400px;
+  height: 300px;
+}
+.Card {
+  width: 100%;
+  height: 390px;
+  background-color: rgb(22, 203, 216);
+  text-align: center;
+  justify-content: center;
+  margin: 20px;
+}
+#canterbury {
+  width: 1100px;
+  height: 500px;
+}
+img {
+  width: 50px;
+  height: 50px;
+}
+
+#FondoEtiqueta {
+  background-color: rgb(0, 0, 0);
+  color: white;
+}
+#botonslide{
+  width: 64%;
+  height: 300px;
+
+}
+#facu{
+  width: 600px;
+  height: 300px;
+  object-fit: contain;
+}
+#ButCard {
+  background-color: Black;
+  color: white;
+  font-size: 15px;
+  font-weight: bolder;
+  margin: 15px;
+}
+#ContenedorP {
+ display:inline-flex;
+ justify-content: inline;
+ text-align: center;
+ margin: 100px;
+ 
+}
+#ContenedorNav {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-evenly;
+}
+.CartaFooter {
+  text-align: center;
+  border: 5px white solid;
+  height: 300px;
+  width: 400px;
+  margin-top: 50px;
+  font-family: "Varela Round", sans-serif;
+  font-weight: 400;
+  font-style: normal;
+}
+.CartaFooter:hover {
+  border: 7px rgb(14, 196, 171) solid;
+  color: rgb(14, 196, 171);
+  font-size: 25px;
+  
+}
+ul{
+  list-style: none;
+  
+}
+#partidito{
+  height: 30px;
+  width: 140px;
+  background-color: darkorange;
+  border: 3px white solid;
+  text-align: center;
+  margin: 5px;
+
+}
+#partido{
+  position: fixed;
+  
+}
+#boton{
+  width: 250px;
+  height: 50px;
+  
+}
+#barrahead{
+  position: fixed;
+}
+
+.ContenedorFooter {
+  display: flex;
+  justify-content: space-around;
+}
+}
